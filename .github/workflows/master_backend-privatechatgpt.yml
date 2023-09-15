@@ -51,4 +51,4 @@ jobs:
           app-name: 'backend-privatechatgpt'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4DAD47FBCB334A1E8413E6A76C0248B8 }}
-          package: .
+          package:  ./dist/NodeJS-TestApp
